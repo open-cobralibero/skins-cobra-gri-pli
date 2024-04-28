@@ -136,7 +136,7 @@
 		<color name="unffffff" value="#00ffffff" />
 		<color name="Wheat2" value="#00eed8ae" />
 		<color name="white" value="#00f0f0f0" />
-		<color name="yellow" value="#00f9c731" />
+		<color name="yellow" value="#00ffff00" />
 		<color name="yellowsoft" value="#00ccac66" />
 		<color name="yellowtransparent" value="#084b4b00" />
 	</colors>
@@ -2395,6 +2395,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)//2, orgpos.y() + (o
 		<ePixmap pixmap="Cobra-Gri-PLi/logos/pli1.png" position="610,0" size="700,700" alphatest="blend" />
 		<eLabel text="Skin Cobra-Gri-PLi" position="460,756" size="1000,75" font="Roboto; 60" borderWidth="3" transparent="1" valign="center" halign="center" foregroundColor="white" />
 		<widget name="text" position="115,892" size="1690,56" font="MRegular; 42" halign="center" borderWidth="3" foregroundColor="yellow" valign="center" transparent="1" zPosition="8" />
+		<eLabel name="" position="1450,94" size="400,80" font="Regular;34" backgroundColor="background" text="Designed by COBRA" transparent="1" halign="center" foregroundColor="yellow" />
 	</screen>
 	<screen name="YouTubeMain" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate" />
